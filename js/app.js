@@ -30,7 +30,7 @@ function roll(){
     index++;
   //move on the number
     number++;
-  // if the index moving more than  array indeces start from zero again
+  // if the index moving more than array index start from zero again
     if(index>2)
     index=0;
     console.log(index);
