@@ -1,10 +1,14 @@
-var player=0;
-var computer=0;
-var choices=['rock','paper','scissors'];
+// Nitpick: Keep spacing between like so:
+var player = 0;
+var computer = 0;
+var choices = ['rock','paper','scissors'];
 
 var index=0;
+// Time for what? Better naming and commenting useful here too!
 var time=0;
+// It's not clear what number is or what this means. Naming and comments very important here.
 var number=1;
+
 function roll(){
 
 
@@ -31,9 +35,10 @@ function roll(){
   //move on the number
     number++;
   // if the index moving more than array index start from zero again
-    if(index>2)
-    index=0;
-    console.log(index);
+    if(index>2) {
+      index=0;
+      console.log(index);
+    }
 }
 
 function win(playerchoice,computerchoice){
